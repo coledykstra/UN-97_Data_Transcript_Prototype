@@ -1,8 +1,11 @@
 Copy .env.example to .env
 
-In the .env file edit the last two lines with your canvas lms instance ip addressa and your api key.
+Edit the last two lines of the .env file.
 
+Replace {ip_address} and {your_key_here} with the canvas instance ip address and your api key.
 
+CANVAS_API_BASE_URL=http://{ip_address}/api/v1/
+CANVAS_ACCESS_TOKEN={your_key_here}
 
 Open command line in the UN-97_Data_Transcript_Prototype folder
 
