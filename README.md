@@ -1,3 +1,9 @@
+Copy .env.example to .env
+
+In the .env file edit the last two lines with your canvas lms instance ip addressa and your api key.
+
+
+
 Open command line in the UN-97_Data_Transcript_Prototype folder
 
 php artisan serve
