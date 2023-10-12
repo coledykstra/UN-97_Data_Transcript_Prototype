@@ -18,4 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/courses', 'App\Http\Controllers\CourseController@index');
+Route::get('/students', 'App\Http\Controllers\StudentController@index');
+Route::get('/enrollments/{studentId}', 'App\Http\Controllers\EnrollmentController@index');
+
 
