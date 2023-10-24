@@ -4,7 +4,7 @@
     <title>Canvas LMS Student List</title>
 </head>
 <body>
-    <h1>Canvas LMS Courses</h1>
+    <h1>Canvas LMS Student List</h1>
     <ul>
         @foreach ($students as $student)
             <li>
